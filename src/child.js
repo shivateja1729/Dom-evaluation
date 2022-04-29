@@ -1,8 +1,8 @@
 import './styles.css';
 
-import Child from "./child";
 
-function App() {
+
+function Child() {
  const employee = {
   name: 'Tom',
   location: 'New York',
@@ -15,6 +15,7 @@ return(
   <div className="container">
   <img src={employee.profileImg} alt='cannot display profile image'/>
   <div className='info'>
+  
   <h1>{employee.name}</h1>
   <p><strong>{employee.location}</strong></p>
   <h5>Blood Group</h5>

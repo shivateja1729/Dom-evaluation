@@ -1,0 +1,2 @@
+const targetstring = `""`
+export {targetstring};
